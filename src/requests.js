@@ -15,6 +15,7 @@ const getCurrentCountry = async () => {
 }
 
 const getCountry = async (countryCode) => {
+      //Link not working
     const response = await fetch('//restcountries.eu/rest/v2/all')
 
     if (response.status === 200) {
